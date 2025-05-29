@@ -1,7 +1,7 @@
 import {Check} from "lucide-react"
 const Cards = () =>{
     return(
-        <section className="container mx-auto px-4 max-w-2xl text-center mt-15 flex justify-between">
+        <section className="container mx-auto px-4 max-w-2xl text-center mt-5 flex justify-between">
       <div className="w-50 rounded-md shadow-lg border-black flex items-center justify-center ">
         {" "}
         <Check />

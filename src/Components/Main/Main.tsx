@@ -1,12 +1,16 @@
 import CallCard from "../CallCard/CallCard";
 import Cards from "../Cards/Cards";
+import CardsQuality from "../CardsQuality/CardsQuality";
 import Examples from "../Examples/Example";
+import Works from "../Works/Works";
 
 const Main = () => {
   return (
-    <main className="h-dvh">
+    <main className="h-full">
       <Cards />
+      <CardsQuality />
       <Examples />
+      <Works />
       <CallCard />
     </main>
   );
