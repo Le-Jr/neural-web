@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="container mx-auto px-4 max-w-2xl text-center mt-10">
+    <header className="container mx-auto px-4 max-w-2xl text-center mt-10 ">
       <h1 className="text-4xl font-bold text-center">
         Landing Page profissional, Pronta em 24h - Otimizada por IA para vender
         por Você
