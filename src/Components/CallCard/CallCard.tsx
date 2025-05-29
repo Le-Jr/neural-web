@@ -5,7 +5,12 @@ const CallCard = () => {
   return (
     <section className="container mx-auto px-4 max-w-2xl text-center mt-5 mb-10">
       <div className=" w-full bg-gray-500 rounded-md flex flex-col justify-center items-center">
-        <p className="text-white text-center max-w-70 font-bold mt-3">Me chama agora no WhatsApp e receba sua landing page amanhã! </p>
+        <h3 className="text-white text-center max-w-80 font-bold mt-3">
+          Pronto para Multiplicar Suas Conversões?
+        </h3>
+        <p className="text-white font-semibold">
+          Apenas 5 vagas esta semana - Reserve já a sua!
+        </p>
         <Button className=" text-black mt-3 mb-5" variant={"secondary"}>
           {" "}
           <MessageCircleMore />
@@ -13,6 +18,10 @@ const CallCard = () => {
             Quero minha landing agora
           </a>{" "}
         </Button>
+        <p className  ="text-white text-sm  opacity-80 mb-3">
+          ✅ Resposta em até 30 minutos • ✅ Sem compromisso • ✅ Orçamento
+          gratuito
+        </p>
       </div>
     </section>
   );

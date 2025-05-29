@@ -2,6 +2,8 @@ import CallCard from "../CallCard/CallCard";
 import Cards from "../Cards/Cards";
 import CardsQuality from "../CardsQuality/CardsQuality";
 import Examples from "../Examples/Example";
+import Faq from "../Faq/Faq";
+import Packages from "../Packages/Packages";
 import Works from "../Works/Works";
 
 const Main = () => {
@@ -11,6 +13,8 @@ const Main = () => {
       <CardsQuality />
       <Examples />
       <Works />
+      <Packages />
+      <Faq />
       <CallCard />
     </main>
   );
