@@ -1,3 +1,4 @@
+
 const Examples = () => {
   return (
     <section className="container mx-auto px-4 max-w-2xl text-center mt-15 flex justify-between flex-col items-center">

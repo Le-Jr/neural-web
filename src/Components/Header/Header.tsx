@@ -25,7 +25,7 @@ const Header = () => {
       <Button className="cursor-pointer shadow-sm mt-5 ">
         {" "}
         
-        <a href="https://wa.me/5521992109778?text=Ol%C3%A1!!%20Gostaria%20de%20saber%20mais%20sobre%20as%20landing%20pages!!">
+        <a href="https://wa.me/5521981265872?text=Ol%C3%A1!!%20Gostaria%20de%20saber%20mais%20sobre%20as%20landing%20pages!!">
           {" "}
           🚀
           Quero minha landing em 24h  

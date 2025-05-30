@@ -13,7 +13,7 @@ const Faq = () => {
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>Realmente entregam em 24h?</AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="text-left">
             Sim! Nosso processo otimizado com IA permite entregas rápidas sem
             perder qualidade. Se não cumprir o prazo, você ganha desconto de
             50%.
@@ -21,7 +21,7 @@ const Faq = () => {
         </AccordionItem>
         <AccordionItem value="item-2">
           <AccordionTrigger>E se eu não gostar do resultado?</AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="text-left">
             Oferecemos revisões incluídas em todos os pacotes. Se ainda assim
             não ficar satisfeito, devolvemos 100% do valor.
           </AccordionContent>
@@ -29,14 +29,14 @@ const Faq = () => {
 
         <AccordionItem value="item-3">
           <AccordionTrigger>Funciona para qualquer nicho?</AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="text-left">
             Especializamos em infoprodutos, cursos online, ebooks e lançamentos
             digitais. São os nichos que mais dominamos.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
           <AccordionTrigger>Como é feito o pagamento?</AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="text-left">
             Aceitamos PIX (desconto de 5%), cartão de crédito e transferência.
             Pagamento 50% no início, 50% na entrega.
           </AccordionContent>
