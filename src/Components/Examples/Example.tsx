@@ -14,16 +14,21 @@ const Examples = () => {
       id: 1,
       title: "Página de Vendas",
       img: "mercurio.png",
-      link: "https://mercuriochat.com.br"
+      link: "https://mercuriochat.com.br",
     },
     {
       id: 2,
-      title: "Página de Captura",
-      img: "example.png",
-      link: "https://mercuriochat.com.br"
-    }
-  ]
-
+      title: "Página para nutricionistas",
+      img: "image.png",
+      link: "https://nutricionist-navy.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Página para finanças",
+      img: "finance.png",
+      link: "https://finance-lp.vercel.app/",
+    },
+  ];
 
   return (
     <section className="container mx-auto px-4 max-w-2xl text-center mt-15 flex justify-between flex-col items-center">
@@ -39,14 +44,25 @@ const Examples = () => {
         }}
       >
         <CarouselContent>
-          {cards.map((item) =>(
+          {cards.map((item) => (
             <CarouselItem key={item.id}>
               <div className="p-2">
                 <Card className="shadow-2xs shadow-emerald-950">
                   <CardContent className="flex flex-col items-center justify-center p-6 space-y-4">
-                    <a href={item.link} ><img src={item.img} alt={item.title} className="w-50 h-32 object-cover rounded-lg" /></a>
+                    <a href={item.link}>
+                      <img
+                        src={item.img}
+                        alt={item.title}
+                        className="w-50 h-50 object-cover rounded-lg"
+                      />
+                    </a>
                     <p>{item.title}</p>
-                    <Button variant={"default"}> <a href={item.link} target="_blank">Clique para ver a página</a> </Button>
+                    <Button variant={"default"}>
+                      {" "}
+                      <a href={item.link} target="_blank">
+                        Clique para ver a página
+                      </a>{" "}
+                    </Button>
                   </CardContent>
                 </Card>
               </div>
@@ -56,7 +72,6 @@ const Examples = () => {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-    
     </section>
   );
 };
