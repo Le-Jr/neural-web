@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -40,11 +41,12 @@ const Examples = () => {
         <CarouselContent>
           {cards.map((item) =>(
             <CarouselItem key={item.id}>
-              <div className="p-1">
+              <div className="p-2">
                 <Card className="shadow-2xs shadow-emerald-950">
                   <CardContent className="flex flex-col items-center justify-center p-6 space-y-4">
-                    <a href={item.link} ><img src={item.img} alt={item.title} className="w-11/12 h-32 object-cover rounded-lg" /></a>
+                    <a href={item.link} ><img src={item.img} alt={item.title} className="w-50 h-32 object-cover rounded-lg" /></a>
                     <p>{item.title}</p>
+                    <Button variant={"default"}> <a href={item.link} target="_blank">Clique para ver a página</a> </Button>
                   </CardContent>
                 </Card>
               </div>
