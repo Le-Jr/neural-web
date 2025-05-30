@@ -12,13 +12,13 @@ const Examples = () => {
   const cards = [
     {
       id: 1,
-      title: "Página de captura",
+      title: "Página de Vendas",
       img: "mercurio.png",
       link: "https://mercuriochat.com.br"
     },
     {
       id: 2,
-      title: "Página de Vendas",
+      title: "Página de Captura",
       img: "example.png",
       link: "https://mercuriochat.com.br"
     }
