@@ -38,9 +38,9 @@ const Packages = () => {
         Soluções para cada necessidade{" "}
       </h5>
 
-      <div className="Plans flex justify-center gap-8 mt-5">
+      <div className="Plans flex justify-center gap-3 mt-5 ">
         {plans.map((items) => (
-          <div className="Basic w-2xs rounded-2xl bg-gray-500 shadow-2xl text-white">
+          <div className="Basic w-80 rounded-2xl bg-gray-500 shadow-2xl text-white p-3">
             <h6 className="text-md font-semibold mt-5">{items.title}</h6>
             <p className="font-bold">{items.price}</p>
             {items.advantages.map((adv) => (

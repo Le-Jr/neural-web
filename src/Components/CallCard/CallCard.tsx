@@ -4,8 +4,8 @@ import { MessageCircleMore } from "lucide-react";
 const CallCard = () => {
   return (
     <section className="container mx-auto px-4 max-w-2xl text-center mt-5 mb-10">
-      <div className=" w-full bg-gray-500 rounded-md flex flex-col justify-center items-center">
-        <h3 className="text-white text-center max-w-80 font-bold mt-3">
+      <div className=" w-full bg-gray-500 rounded-md flex flex-col justify-center items-center p-3">
+        <h3 className="text-white text-center max-w-80 font-bold mt-3 mb-2">
           Pronto para Multiplicar Suas Conversões?
         </h3>
         <p className="text-white font-semibold">
