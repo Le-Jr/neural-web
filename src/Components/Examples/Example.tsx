@@ -28,6 +28,12 @@ const Examples = () => {
       img: "finance.png",
       link: "https://finance-lp.vercel.app/",
     },
+    {
+      id: 4,
+      title: "Página para Marketing Digital",
+      img: "marketing.png",
+      link: "https://digitalprolp.netlify.app/",
+    },
   ];
 
   return (
